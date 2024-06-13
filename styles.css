@@ -1,0 +1,261 @@
+/* Whole document */
+/* topbar */
+h1{ 
+    font-family: "Orbitron", sans-serif;
+    font-style: normal;
+    font-optical-sizing: auto;
+    font-weight: 3px;
+    color: #333333;
+    padding: 10px;
+    text-align: center;
+}
+
+headerDefine{
+    font-family: "Orbitron", sans-serif;
+    font-size: 12px;
+    color: #ab2222;
+}  
+
+h1#Define{
+    font-family: "Orbitron", sans-serif;
+    font-size: 19px;
+    color: #333333;
+}  
+
+nav {
+    font-family: 'Mali',cursive;
+    background:  #ced4db;
+    color: #333333;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color: #333333;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+footer {
+    background: #ced4db;
+    color:  #333333;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}   
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+
+
+/* Farmers CSS */
+/* universal */
+
+/* homepage */
+header {
+    font-family: "Orbitron", sans-serif;
+    font-style: normal;
+    font-optical-sizing: auto;
+    font-weight: 3px;
+    background-color: #ced4db;
+    color: #b52a2a;
+    padding: 10px 0;
+    text-align: center;
+}
+
+button{
+    background-color: green;
+    color: black;
+    border-radius: 70%;
+    
+}
+.container#farms{
+    background-color: #ced4db;
+    margin: 5px;
+    border-radius: 9px;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+div#value{
+    background-color: aqua;
+    border-radius: 100%;
+    position: relative;
+    
+}
+div#rating{
+    background-color: #ced4db;
+}
+
+/* Image card settings */
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+
+  .card {
+    width:1000px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: #fff;
+    margin: 20px;
+    font-family: Arial, sans-serif;
+}
+.card-header {
+    background-color: #f5f5f5;
+    padding: 16px;
+    border-bottom: 1px solid #ddd;
+    font-size: 1.25em;
+    font-weight: bold;
+}
+.card-body {
+    padding: 16px;
+}
+.card-footer {
+    background-color: #f5f5f5;
+    padding: 16px;
+    border-top: 1px solid #ddd;
+    text-align: right;
+}
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Orders  */
+  /* Add some padding inside the card container */
+  .column1 {
+    float: initial;
+    width: 60%;
+    padding: 2px;
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+}
+  .column2 {
+    font-family: 'Times New Roman', Times, serif;
+    float: inline;
+    width: 40%;
+    padding: 8px;
+    }
+
+  .container#buildup {
+    padding: 0.1%;
+    margin: 2pt 2pt;
+    background-color: #dfe3e8;
+    border-radius: 7px;
+  }
+
+  .container#pendingOrders{
+    background-color: #dfe3e8;
+    border-radius:7px ;
+  }
+  table{
+    width: 100%;
+    margin:10px;
+    width: 100%;
+    text-align: left;
+  }
+
+p#timestamp{
+    text-align: right;
+    font-size: 10px;
+    font-style: italic;
+    padding-left: 20px;
+
+}
+p#status{
+    
+    border-style: solid;
+    
+    text-align: center;    
+   
+    font-size: 10px;
+    
+}
+.btn1 {
+    background-color: green;
+    border-radius: 60%;
+    border: none;
+    color: black;
+    padding: 6px 6px;
+    text-align: center;
+    font-size: 11px;
+    margin: 2px 2px;
+    opacity: 0.9;
+    transition: 0.3s;
+    width: 70px;
+  }
+
+.btn1:hover {opacity:1.7}
+
+button#decline{
+    color: white;
+    border-radius: 70px;
+    background-color: #ab2222;
+}
+ 
+
+button#accept{
+    color: white;
+    border-radius: 70px;
+    background-color: green;
+}
+
+
+/* farm page */
+
+.zoom {
+    padding: 5px;
+    background-color: rgb(88, 203, 26);
+    transition: transform .2s; /* Animation */
+    width: 110px;
+    height: 60px;
+    margin: auto;
+    border-radius: 9px;
+    text-align: center;
+    position: relative;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    
+  }
+  
+  .zoom:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  
+
